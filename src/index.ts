@@ -1,2 +1,8 @@
-/** Registration metadata for this skeleton; not a domain or API schema. */
-export const moduleDefinition = {id: 'module-boilerplate-nuxt', presentation: 'nuxt-vue', status: 'skeleton'} as const;
+/** Skeleton registration metadata; this is not a domain/API contract. */
+export const moduleDefinition = {
+  "id": "module-accounting-account-reconciliations-nuxt",
+  "presentation": "nuxt-vue",
+  "capabilityKey": "liberusoftware/module-accounting-account-reconciliations",
+  "status": "skeleton",
+  "documentation": "https://github.com/liberusoftware/documentation/blob/main/projects/accounting/nuxt/account-reconciliations.md"
+} as const;
